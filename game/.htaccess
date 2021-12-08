@@ -1,0 +1,75 @@
+#DO NOT CHANGE THESE SETTINGS UNLESS YOU KNOW WHAT YOU'RE DOING
+ErrorDocument 404 /404
+ErrorDocument 403 /403
+
+Options -Indexes
+Options +FollowSymlinks
+
+SetEnv SiteRoot /
+SetEnv TimeZone Asia/Jakarta
+
+RewriteEngine on
+
+RewriteBase /
+RewriteRule ^404$ ?404
+RewriteRule ^403$ ?403
+
+RewriteRule ^ranking/worldAccess$ ?ranking=worldAccess
+RewriteRule ^ranking/bestPlayers$ ?ranking=topCharacters
+RewriteRule ^game/register$ ?register
+RewriteRule ^playme$ ?playme
+RewriteRule ^contact$ ?contact
+RewriteRule ^about$ ?about
+RewriteRule ^disclaimer$ ?disclaimer
+RewriteRule ^faq$ ?faq
+RewriteRule ^profile/([a-zA-Z0-9_-]+)$ ?profile&id=$1
+RewriteRule ^upgrade$ ?upgrade
+RewriteRule ^logout$ ?logout
+
+RewriteCond %{ENV:REDIRECT_VAR} !^$
+RewriteRule .* - [E=VAR:%{ENV:REDIRECT_VAR}]
+
+RewriteCond %{ENV:REDIRECT_VAR} (.+)
+RewriteRule .* - [E=VAR:%1]
+
+RewriteCond %{HTTP_HOST} ^25.69.103.153$
+RewriteRule (.*)$ http://www.google.com/$1 [L]
+
+DefaultLanguage en
+AddDefaultCharset UTF-8
+
+ServerSignature Off
+
+AddType application/x-httpd-php .asp
+AddType application/x-shockwave-flash .swf
+AddType image/x-icon .ico
+<FilesMatch "\.(asp|aspx)$">
+  SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.(swf)$">
+  SetHandler application/x-shockwave-flash
+</FilesMatch>
+<FilesMatch "\.(ico)$">
+  SetHandler image/x-icon
+</FilesMatch>
+
+<Files .htaccess>
+  order allow,deny
+  deny from all
+</Files>
+
+<ifmodule mod_php4.c>
+  php_value zlib.output_compression 16386
+</ifmodule>
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^download/(.+)$ /wp-content/force-download.php?file=uploads/$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

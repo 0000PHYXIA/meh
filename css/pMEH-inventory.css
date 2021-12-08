@@ -1,0 +1,78 @@
+.acItem, .acItem li, .acItem a  {
+	color: #660099 !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+.memItem, .memItem li, .memItem a {
+	color: #660099 !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+.normItem, .normItem li, .normItem a  {
+	color: #660099;
+	font-size: 12px;
+}
+
+.armor, .axe, .bow, .cape, .class, .dagger, .gun, .hammer, .helm, .item, .mace, .pet, .polearm, .spear, .staff, .sword, .flooritem, .wallitem  {
+	background-repeat: no-repeat;
+	text-indent: 15px;
+	padding-bottom: 5px;
+	padding: 0px 5px 5px 5px;
+}
+.armor {
+	background-image:url('../images/inven/armor.gif');
+}
+.axe {
+	background-image:url('../images/inven/axe.gif');
+}
+.bow {
+	background-image:url('../images/inven/bow.gif');
+}
+.cape {
+	background-image:url('../images/inven/cape.gif');
+}
+.class {
+	background-image:url('../images/inven/class.gif');
+}
+.dagger {
+	background-image:url('../images/inven/dagger.gif');
+}
+.staff {
+	background-image:url('../images/inven/staff.gif');
+}
+.gun {
+	background-image:url('../images/inven/gun.gif');
+}
+.hammer {
+	background-image:url('../images/inven/hammer.gif');
+}
+.helm {
+	background-image:url('../images/inven/helm.gif');
+}
+.item {
+	background-image:url('../images/inven/item.gif');
+}
+.mace {
+	background-image:url('../images/inven/mace.gif');
+}
+.pet {
+	background-image:url('../images/inven/pet.gif');
+}
+.polearm {
+	background-image:url('../images/inven/polearm.gif');
+}
+.spear {
+	background-image:url('../images/inven/spear.gif');
+}
+.sword {
+	background-image:url('../images/inven/sword.gif');
+}
+.flooritem {
+	background-image:url('../images/inven/flooritem.gif');
+}
+.wallitem {
+	background-image:url('../images/inven/wallitem.gif');
+}
+.house {
+	background-image:url('../images/inven/house.gif');
+}

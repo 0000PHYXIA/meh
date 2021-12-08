@@ -1,0 +1,41 @@
+#bg_base {
+    text-align: center;
+    overflow: hidden;
+}
+
+#moveBg_base {
+    width: 1280px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -500;
+    top: 0;
+    left: 50%;
+    margin-left: -640px;
+}
+
+#staticBg_base {
+    width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -500;
+    top: 0;
+    left: 50%;
+    margin-left: -500px;
+    display: none;
+}
+
+.staticBg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.moveBg {
+    position: relative;
+    top: -640px;
+    left: 0;
+}

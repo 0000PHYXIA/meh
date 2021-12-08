@@ -1,0 +1,179 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="InfinityServes its a Server that got a loot of servers!" />
+<title>Pr3 - SignUp</title>
+<link rel="canonical" href="http://www.InfinityServer.ga/landing/" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="/play-now/ae_fb.js"></script>
+<script type="text/javascript" src="/landing/prettyPhoto/js/jquery.prettyPhoto.js"  charset="utf-8"></script>
+<link rel="stylesheet" href="/landing/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link rel="stylesheet" href="style-landing.css" type="text/css" media="screen" />
+
+
+
+<script type="text/javascript">
+	function logCreationTracking(uid, btn, crt) {
+		var urlData = "/creationTracking.asp?uid="+uid+"&btn="+btn+"&crt=" + crt;
+		$.ajax({
+			url: urlData,
+			type: "Get",
+			success: function (data) {
+				return data;
+			}
+		});
+    }
+    function showIt(zone, age, userid) {
+        var oFrame = $("#ff");
+        if (zone == "signup") {
+            oFrame.attr('src', '/play-now/ballyhoo/signuptracking.asp?id=' + userid + '&age=' + age);
+            return;
+        }
+    }
+
+    // setup Flash object
+    var params = {
+        LOOP: "false",
+        SCALE: "exactfit",
+        allowScriptAccess: "always",
+        allowFullScreen: "false",
+        menu: "false",
+        flashvars: "showLogo=true&specAd=&Landing=true&refID=&campaign=&strSourceID=LandTestB"
+    };
+    swfobject.embedSWF("../game/gamefiles/newuser/Register7.swf", "flashContent", "960", "550", "9.0", false, false, params, { id: "flashContent", name: "flashContent" });
+</script>
+</head>
+
+<body>
+<!-- New Universal Analytics -->
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-43443388-4', 'aq.com');
+    ga('send', 'pageview');
+</script>
+<!-- End New Universal Analytics -->
+
+<a name="top"></a>
+<div id="createChar">
+  <div id="fb-root" name="fb-root"></div>
+
+  <!--
+  <div align="center">
+    <br/><br/><br/><br/>
+    <b style="font-size:large;">Game Servers OFFLINE for <a href="/gamedesignnotes">Scheduled Maintenance</a></b><br/>
+    <a href="http://www.artix.com/games"><b style="font-size:larger;">Play More Artix Games Here</b></a>
+    <br/><br/>
+  </div>
+  -->
+    
+    <table id="dialogAnchor" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr>
+            <td align="center">
+                <div id="flashContent" style="height:550px;">
+                    <br/><br/>
+                    <h2>You will need to install or enable Flash Player to play InfinityServer</h2>
+                    <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+
+                    <br/><br/>
+                    <h2>If your mobile device does not support Flash, please check out our new Mobile game:</h2>
+
+                    <!-- battlegems info -->
+                    <a href="http://battlegems.artix.com"><img src="/shared/images/bgmobile2.jpg" alt="BattleGems"/></a>
+
+                </div>
+            </td>
+        </tr>
+    </table>
+
+  <!--
+  <div id="flashContentB" name="flashContent">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="960" height="550">
+      <param name="movie" value="../game/gamefiles/newuser/AQW-Landing-3Apr13.swf" />
+      <param name="quality" value="high" />
+      <param name="flashvars" value="showLogo=true&specAd=&Landing=true&refID=&campaign=&strSourceID=LandTestB"/>
+      <param name="wmode" value="window" />
+      <param name="AllowScriptAccess" value="always" /> 
+      <embed src="../game/gamefiles/newuser/AQW-Landing-3Apr13.swf" quality="high" wmode="window" Landing="true" 
+        pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"
+        type="application/x-shockwave-flash" width="960" height="550" 
+        flashvars="showLogo=true&specAd=&Landing=true&refID=&campaign=&strSourceID=LandTestB" allowscriptaccess="always"></embed>
+    </object>
+  </div>
+  -->
+
+</div>
+
+<div id="showMoreB" class="sprite" style="margin-top:10px;">
+<a name="ssvid"></a>
+    <div class="sprite playNow"> <a href="../game.php">Already have an Account? <strong>Go Now!</strong></a></div>
+    <div class="sprite screen1"><a rel="prettyPhoto" href="images/minotaur-battle.jpg" title="Minotaur Battle in Free MMORPG"><span>AQWorlds Minotaur Battle Screenshot</span></a></div>
+    <div class="sprite videoImg"><a rel="prettyPhoto" href="http://www.youtube.com/watch?v=XgN8ySbSSa4"><span>AQWorlds Trailer</span></a></div>
+    <div class="sprite screen2"><a rel="prettyPhoto" href="images/undead-battle.jpg" title="Free to play - Undead Battle"><span>AQWorlds Undead Battle Screenshot</span></a></div>
+
+    <div class="text">
+        <h1 class="orangeText">InfinityServer </h1>
+        <img src="/images/clear.gif" alt="clear.gif" height="1" width="1" align="left"/>
+        <p>InfinityServes its a Server that got a loot of servers! <a href="../index.php">Homepage!</a>
+		<div class="nav nopadding" align="center" style="width:750px; margin:auto auto;">
+    <h3 align="left">Other Games:</h3>
+    <iframe width='728' height='90' frameborder='0' scrolling='no' src='http://server.cpmstar.com/view.aspx?poolid=22158&multi=7&rnd=204433'></iframe>
+</div>
+<br/><br/>
+        </p>
+       <!-- <a class="sprite backTop" href="#top" title="Create your Account"><span>Back to Top</span></a> -->
+    </div>
+</div>
+
+
+
+
+
+
+<div class="sprite footerDiv">
+<a class="artixlink" target="_blank" href="http://www.artix.com/"><span>Artix.com</span></a>
+<table width="960" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td>We maded this WebSite for you bros that you can have fun<br />
+    </td>
+    <td>
+        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FHeroesQuestAQW&amp;send=false&amp;layout=standard&amp;width=170&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;font=arial&amp;height=50" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:50px;" allowTransparency="true"></iframe>
+    </td>
+    <td>
+        <a href="http://facebook.com/julius.kar/" class="twitter-share-button" data-url="http://facebook.com/julius.kar/">Tweet</a>
+ </td>
+  </tr>
+</table>
+</div>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+            show_title: false,
+            social_tools: ''
+        });
+    });
+</script>
+
+<!-- frame loads in some extra stuff after user creates new account -->
+<iframe id="ff" width="100%" height="10px" frameborder="0" src="blank.asp" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+<script type="text/javascript">_qoptions={qacct:"p-effgxc39LuLj2"};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+
+<script type="text/javascript" src="https://service.clickreport.com/wmcaudit.js?id=9350"></script> 
+
+<!-- Segment Pixel - AQ -- Visitor - DO NOT MODIFY -->
+<img src="http://ib.adnxs.com/seg?add=1747881&t=2" width="1" height="1" />
+<!-- End of Segment Pixel -->
+</body>
+</html>
+<script type="text/javascript" src="http://www.sponsorads.de/script.php?s=253306"></script>

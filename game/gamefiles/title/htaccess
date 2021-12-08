@@ -1,0 +1,6 @@
+Options -Indexes
+
+Order allow,deny
+Allow From All
+
+ErrorDocument 403 /error/EATL_FORBIDDEN.html.var

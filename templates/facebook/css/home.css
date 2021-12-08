@@ -1,0 +1,202 @@
+/*****************************************************************
+ * Name: FB Refresh
+ * Author: Greg H.
+ * Last Update: July 4, 2012
+ * Please do not use any part of the code found in this extension without       
+ * contacting me first.
+ * If you are interested in using a bulk amount 
+ * of this code, you can contact me on the Google Chrome extension page.
+ *****************************************************************/
+
+html {
+height: 100%;
+}
+
+.fbIndex a#settingsLink {
+float: right; 
+border-radius: 100px; 
+height: 16px; 
+margin-bottom: 6px; 
+padding: 1px;
+}
+
+.fbIndex a#settingsLink:hover {
+float: right; 
+background-color: #FFFFFF; 
+border-radius: 100px; 
+height: 16px; 
+margin-bottom: 6px; 
+padding: 1px;
+}
+
+.fbIndex a#settingsLink2 {
+float: right; 
+position: fixed;
+bottom: 5px;
+left: 10px;
+border-radius: 100px; 
+height: 16px; 
+margin-bottom: 6px; 
+padding: 1px;
+}
+
+.fbIndex a#settingsLink2:hover {
+float: right; 
+background-color: #FFFFFF; 
+border-radius: 100px; 
+height: 16px; 
+margin-bottom: 6px; 
+padding: 1px;
+}
+
+.fbIndex div.rg3fbpz-tooltip {
+display: none;
+}
+
+.fbIndex div#blueBar {
+background: transparent !important;
+}
+
+.fbIndex div.WelcomePage_Container {
+background: transparent !important;
+}
+
+.fbIndex div#content {
+display: none !important;
+}
+
+.fbIndex div.fb_content {
+display: none !important;
+}
+
+.fbIndex div.WelcomePage_MainSellCenter  {
+display: none !important;
+}
+
+.fbIndex div.WelcomePage_MainSell {
+display: none !important;
+}
+
+.fbIndex #pageFooter {
+display: none !important;
+}
+
+
+.fbIndex ul.welcome_locales {
+display: none !important;
+}
+
+.fbIndex .loggedout_menubar_container {
+background-color: transparent !important;
+}
+
+.fbIndex .loggedout_menubar {
+margin-left: auto !important;
+margin-right: auto !important;
+width: 400px !important;
+
+padding-top: 0px !important;
+}
+
+
+.fbIndex div.menu_login_container {
+-webkit-box-shadow: 0px 0px 15px #1F1F1F;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+margin-top: 15px;
+background-color: rgba(255, 255, 255, 0.75)
+}
+
+
+.fbIndex img.fb_logo  {
+
+margin-top: 50%;
+margin-left: 70px !important;
+padding-top: 0px !important;
+padding-left: 0px !important;
+width: 250px !important;
+height: 90px !important;
+
+}
+
+.fbIndex .sp_5x888u {
+}
+
+.fbIndex i.fb_logo {
+margin-left: 105px;
+margin-top: 50%;
+}
+
+.fbIndex .lfloat {
+float: none !important;
+}
+
+.fbIndex .menu_login_container label {
+margin: 1px !important;
+}
+
+.fbIndex .menu_login_container a {
+}
+
+.fbIndex .menu_login_container .uiButton .uiButtonConfirm .uiButtonMedium {
+background-color: transparent !important;
+border-color: transparent !important;
+}
+
+.fbIndex .menu_login_container input[type="text"] {
+padding: 3px !important; 
+font-size: 15px !important; 
+border: 1px solid #000000 !important;
+}
+
+.fbIndex .menu_login_container input[type="password"] {
+padding: 3px !important; 
+font-size: 15px !important; 
+border: 1px solid #000000 !important;
+}
+
+
+.fbIndex label input {
+padding: 5px !important;
+}
+
+.fbIndex .uiButton {
+
+}
+
+.fbIndex .signup_box  {
+display: none !important;
+}
+
+
+input:-webkit-autofill {
+background-color: #FFFFFF !important;
+}
+
+body.fbIndex {
+overflow-y: hidden !important;
+overflow-x: hidden !important;
+-webkit-user-select: none !important;
+opacity: 0.0;
+}
+
+body.fbIndex .menu_login_container label, body.fbIndex .menu_login_container a {
+    color: #424242;
+}
+
+body.fbIndex img.fb_logo.img {
+    display: none;
+}
+
+body.fbIndex .rg3fbpz-icon {
+    display: none;
+}
+
+body.fbIndex signup_bar_container {
+    display: none;
+}
+
+body.fbIndex #blueBar {
+    border-bottom: 0px;
+}

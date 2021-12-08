@@ -1,0 +1,1 @@
+status=success&sFile=HQW-Gamev1.0.5.swf&sTitle=The Return!&sBG=INF-BG-2015-01-11~Kakakaja.swf

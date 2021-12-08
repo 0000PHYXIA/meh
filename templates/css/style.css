@@ -1,0 +1,245 @@
+/*
+* Theme Name: Crevision
+* Theme URI: http://www.jozoor.com
+* Description: Crevision Theme for corporate and creative sites, responsive and clean layout, more than color skins
+* Author: Jozoor team
+* Author URI: http://www.jozoor.com
+* Version: 1
+*/
+
+/* Import Basic Files
+================================================== */
+
+@import url("fonts.css");               /* Custom Fonts */
+@import url("base.css");                /* Reset & Basics */
+@import url("skeleton.css");            /* Base 960 Grid */
+@import url("javascript.css");          /* Css Styles for js scripts */
+@import url("shortcodes.css");          /* Css Styles for shortcodes */
+@import url("custom.css");              /* Css Styles File for any changes you want to add */
+
+/* Site Styles
+================================================== */
+
+#nav{
+	float:right;
+}
+
+.title {
+	padding:10px 0 10px 0;
+	border-bottom:1px solid #ececec;
+	margin:15px 0 15px 0;
+}
+
+/* inputs */
+input:hover, textarea:hover,input:focus, textarea:focus { 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+input { 
+	padding: 8px;
+	outline: 0;
+	font: normal 13px/100% Arial, Tahoma, sans-serif;
+}
+textarea { 
+	padding: 9px;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	border-radius: 2px;
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+
+/* header */
+header {
+	min-height:30px;
+}
+
+.logo {
+	margin:28px 0px 0px 0px;
+}
+
+.selectnav { 
+    display: none; 
+}
+
+/* slider */
+#slider {
+	margin:30px 0;
+}
+
+
+
+/* Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.navigation ul li a {
+display: block;
+padding: 37px 10px 34px 10px;
+}
+
+
+
+/* End */
+
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.js #nav { 
+    display: none; 
+}
+
+.js .selectnav { 
+	display: block;
+	padding:10px;
+	width:100%;
+	border:1px solid #d5d5d5;
+	margin-bottom: 22px;
+	cursor:pointer;
+}
+ 
+#slider {
+    margin-top:20px;
+}
+
+.flex-caption {
+    font-size: 13px;
+}
+
+.flex-caption span {
+	font-size:15px;
+}
+
+.flex-caption{
+    width:95.2%;
+    padding:5px 10px;
+    margin:0;
+    position:absolute;
+    left:0px;
+    bottom:0;
+	line-height:18px;
+}
+ 
+.flex-caption span {
+	display:block;
+	padding:0 0 3px 0;
+}
+
+.flex-caption {
+	display:none;
+}
+
+
+
+blockquote {
+	background-position:4% 20%;
+}
+
+.slidecontrols li a.next {
+	position:absolute;
+	top:32px;
+	right:0;
+}
+
+.slidecontrols li a.prev {
+	position:absolute;
+	top:32px;
+	right:37px;
+}
+
+.flex-direction-nav li a{
+	width:25px;
+	height:45px;
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+.logo {
+    margin:28px 20%;
+}
+
+.js #nav { 
+    display: none; 
+}
+
+.js .selectnav { 
+	display: block;
+	padding:10px;
+	width:100%;
+	border:1px solid #d5d5d5;
+	margin-bottom: 22px;
+	cursor:pointer;
+}
+
+/* slider */
+#slider {
+	margin-top:20px;
+}
+
+#toTop {
+	right:8px;
+}
+
+.flex-caption {
+    font-size: 11px;
+}
+
+.flex-caption span {
+	font-size:13px;
+}
+
+.flex-caption{
+    width:93.2%;
+    padding:5px 10px;
+    margin:0;
+    position:absolute;
+    left:0px;
+    bottom:0;
+	line-height:15px;
+}
+ 
+.flex-caption span {
+	display:block;
+	padding:0 0 3px 0;
+}
+
+.flex-caption {
+	display:none;
+}
+
+
+.slidecontrols li a.next {
+	position:absolute;
+	top:32px;
+	right:0;
+}
+
+.slidecontrols li a.prev {
+	position:absolute;
+	top:32px;
+	right:37px;
+}
+
+.flex-direction-nav li a{
+	width:20px;
+	height:40px;
+}

@@ -1,0 +1,312 @@
+/*
+ * @Author Schneider Dark
+
+ * DEVELOPER PLEASE NOTE
+ * You may edit and/or improve it any further it as long as you do not remove the Original Author Name.
+
+ /* Upgraded By Equinox and F1 W4rMRisK */
+
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			@font-face {
+				font-family: 'Code Light';
+				src: url('fonts/Gotham-Bold.ttf');
+			}
+			@font-face {
+				font-family: 'Quicksand Book';
+				src: url('http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff');
+			}
+			html {
+				background-color: e3e3e3;
+				background: url('../img/bg/body-background.jpg') fixed no-repeat center;
+				font-family: 'bd-merced';
+			}
+			ul.navigation-menu {
+				background-color: lightblue;
+				padding: 11px;
+			}
+			ul.navigation-menu li {
+				padding: 12px;
+				display: inline;
+			}
+			ul.navigation-menu li:hover {
+				background-color: lightgreen;
+				opacity: 0.92;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 5px;
+				-moz-box-shadow: 0px 0px 20px #000000;
+				-webkit-box-shadow: 0px 0px 20px #000000;
+				box-shadow: 0px 0px 20px #000000;
+				-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity = 92);
+				filter: alpha(opacity = 92);
+			}
+			ul.navigation-menu li a {
+				color: white;
+				font-family: 'Quicksand Book';
+				font-weight: 500;
+				text-decoration: none;
+			}
+			ul.navigation-menu li.current {
+				background-color: orange;
+			}
+			div.header-logo {
+			    color: black;
+				font-size: 47px;
+				font-family: 'BD Merced';
+			}
+			div.header-tagline {
+				font-size: 15px;
+				font-family: 'Quicksand Book';
+			}
+			div.header-logotag {
+			    background: url('../img/logotagBG.png') fixed no-repeat;
+				padding: 12px;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 1px;
+				-moz-box-shadow: 0px 0px 20px #000000;
+				-webkit-box-shadow: 0px 0px 20px #000000;
+				box-shadow: 0px 0px 20px #000000;
+				opacity: 0.92;
+				-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity = 92);
+				filter: alpha(opacity = 92);
+			}
+			div.post-news {
+				background-color: white;
+				width: 73%;
+				float: left;
+			}
+			div.news-title {
+			    background: url('../img/News-Bar.png');
+				font-family: Philosopher;
+				font-size: 17px;
+				color: white;
+				text-transform: uppercases;
+				padding: 5px;
+				margin: 0px;
+				border: 1px solid #000;
+				display: block;
+			}
+			div.general-news {
+				border-radius: 15px ;
+				background-color: e1e1e1;
+				width: 99%;
+				float: left;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 1px;
+				-moz-box-shadow: 0px 0px 20px #000000;
+				-webkit-box-shadow: 0px 0px 20px #000000;
+				box-shadow: 0px 0px 20px #000000;
+			}
+			div.post-content {
+				padding: 12px;
+				margin-left: 12px;
+				font-family: 'Quicksand Book';
+				font-weight: 5000;
+			}
+			div.post-details {
+				background-color: e3e3e3;
+				color: gray;
+				padding: 12px;
+				font-family: 'TitilliumText22L Rg';
+			}
+			div.sidebar-right {
+				float: left;
+				margin-left: 15px;
+				width: 28%;	
+			}
+			div.post-title ul li {
+				display: inline;
+				padding: 12px;
+			}
+			div.sidebar-right-title {
+				font-family: 'BD Merced';
+				font-size: 20px;
+				background: url('../img/sidebar-titleBG.png');
+				background-color: 1e1e1e;				
+				color: white;
+				padding: 5px;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 0px;
+				-moz-box-shadow: 0px 0px 20px #000000;
+				-webkit-box-shadow: 0px 0px 20px #000000;
+				box-shadow: 0px 0px 20px #000000;
+				opacity: 0.92;
+				-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity = 92);
+				filter: alpha(opacity = 92);
+			}
+			div.sidebar-right-content {
+				background-color: white;
+				padding: 12px;
+				font-family: 'Quicksand Book';
+			}
+			div.sidebar-right-content input[type="text"], div.sidebar-right-content input[type="password"] {
+				border-radius: 80px;
+				padding: 3px;
+				width: 150px;
+			}
+			div.sidebar-right-content input {
+				padding: 5px;
+				font-family: 'Quicksand Book';
+			}
+			div.sidebar-right-content input[type="submit"], div.sidebar-right-content input[type="reset"] {
+				background-color: 008fff;
+				color: white;
+				border: 0;
+				border-radius: 2px;
+				padding: 7px;	
+				margin: 5;
+			}
+			div.sidebar-right-content a {
+				
+			}
+			ul.navigation-menu img {
+				width: 30px;
+				height: 30px;
+				padding: 0;
+				margin: 0;
+			}
+			ul.navigation-menu div.navigation-social-bar {
+				float: right;
+				margin-top: -5;
+			}
+			ul.navigation-menu li span.nav-title {
+				display: none;
+			}
+			ul.navigation-menu li:hover .nav-title {
+				display: inline;
+				position: fixed;
+				margin-top: 25px;
+				background-color: black;
+				border: 1px solid fff;
+				padding: 12px;
+			}
+			a {
+				text-decoration: none;
+			}
+			table.sidebar-right-account-details td {
+				padding: 5px;
+			}
+			div.warning {
+				background-color: pink;
+				color: red;
+				height: 50px;
+				padding: 5px;
+				margin: 5px;
+			}
+			div.info{
+				background-color: skyblue;
+				color: blue;
+				height: 25px;
+				padding: 5px;
+				margin: 0px;
+				font-size:14px;
+			}
+			p.success {
+				position:relative;
+				display:block;
+				background: #e5f993 url(../img/loader.gif) no-repeat center;
+				border: 1px solid #9bac55;
+				padding:50px 50px 20px 40px;
+				color: #688006;
+				border-radius: 5px;
+				font-family: "BD Merced", Verdana, Arial, "Bitstream Vera Sans", BD Merced;
+				font-size: 30px;
+				text-align: center;
+			}
+			p.error {
+				display:block;
+				background: #f6b9b9 url(../img/icon_error.gif) no-repeat 10px 12px;
+				border: 1px solid #e18484;
+				color: #c32727;
+				padding: 10px 40px 10px 40px;
+				box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+				border-radius: 5px;
+				font-family: "BD Merced", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+				font-size: 14px;
+				text-align: left;
+				
+			}
+			p.error a {
+				color: #FF0303;
+				text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+			}
+			p.error a:hover {
+				color: #FF0000;
+				text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+				text-decoration: none;
+			}
+			#fadeobj {
+				width: 350px;
+				margin: 0 auto;
+				margin-top: 5px;
+				padding: 4px;
+				float: right;
+				border: 3px solid black;
+				border-image: initial;
+				display: none;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 15px;
+				-moz-box-shadow: 0px 0px 20px #000000;
+				-webkit-box-shadow: 0px 0px 20px #000000;
+				box-shadow: 0px 0px 20px #000000;
+				opacity: 0.92;
+				-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity = 92);
+				filter: alpha(opacity = 92);
+			}
+			#fadeobject{
+				border-image: initial;
+				display: none;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				opacity: 0.92;
+				-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity = 92);
+				filter: alpha(opacity = 92);
+			}
+			p.notice {
+				position:relative;
+				display:block;
+				float: center;
+				background: #e5f993 url(../img/loading.gif) no-repeat center;
+				border: 1px solid #9bac55;
+				padding:100px 50px 20px 40px;
+				color: #000000;
+				box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+				border-radius: 5px;
+				font-family: "BD Merced", Verdana, Arial, "Bitstream Vera Sans", BD Merced;
+				font-size: 30px;
+				text-align: center;
+			}
+			li.left-separator {
+                border-left: 2px solid black;
+				margin :0px 0px 0 475px;
+				padding :0px;
+			}
+			li.right-separator {
+				border-left: 2px solid black;
+				margin :0px 0px 0 0px;
+				padding :0px;
+			}
+			table {
+				width:100%;
+				text-align:center;
+			}
+
+			tr, th, td {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+			}
+
+			table {
+				border-collapse: collapse;
+				border-spacing: 0; 
+			}
